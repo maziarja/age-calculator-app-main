@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+/***************************
+  ******  form-section  ******
+  ****************************/
+.container {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 94%);
+  max-width: 144rem;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+}
+.calculator {
+  width: 58.5%;
+  padding: 6rem 6.4rem 3.2rem 6.4rem;
+  background-color: #fff;
+  border-radius: 2.4rem;
+  border-bottom-right-radius: 20rem;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 4.8rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.8rem;
+  letter-spacing: 1.6px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: hsl(0, 1%, 44%);
+}
+input {
+  border: 0.5px solid hsl(0, 0%, 86%);
+  border-radius: 5px;
+  width: 16rem;
+  padding: 1.5rem 0;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: hsl(0, 1%, 44%);
+}
+
+.error-msg {
+  color: hsl(0, 100%, 67%);
+  margin-top: 0.8rem;
+}
+input:focus {
+  outline: 1px solid hsl(259, 100%, 65%);
+}
+input:hover {
+  cursor: pointer;
+}
+/* removing stepper arrows */
+input[placeholder] {
+  color: hsl(0, 0%, 8%);
+  padding-left: 2rem;
+  caret-color: hsl(259, 100%, 65%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*--------------------------*/
+
+.hr-line {
+  /* border: none; */
+  position: relative;
+  border-top: 1px solid hsl(0, 0%, 86%);
+  margin-bottom: 3rem;
+}
+.submit {
+  border: none;
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 50%;
+  background-color: hsl(259, 100%, 65%);
+
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  transform: translate(10%, -50%);
+}
+.submit:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 8%);
+}
+
+/***************************
+  ******  result-section  ******
+  ****************************/
+
+.result-txt {
+  font-size: 9.8rem;
+  font-weight: 800;
+  font-style: italic;
+}
+.result-txt:not(:first-child) {
+  margin-top: -3.4rem;
+}
+.result-num {
+  color: hsl(259, 100%, 65%);
+}
+
+/*font size system (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  
+  /* spacing system (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2.4rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

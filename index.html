@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="quries.css" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="calculator">
+        <form class="form" action="#">
+          <div>
+            <label for="day">DAY</label>
+            <input id="day" type="number" placeholder="DD" />
+            <p class="error-msg"></p>
+          </div>
+          <div>
+            <label for="month">MONTH</label>
+            <input id="month" type="number" placeholder="MM" />
+            <p class="error-msg"></p>
+          </div>
+          <div>
+            <label for="year">YEAR</label>
+            <input id="year" type="number" placeholder="YYYY" />
+            <p class="error-msg"></p>
+          </div>
+        </form>
+        <!-- <hr /> -->
+        <div class="hr-line">
+          <button class="submit">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="44"
+              viewBox="0 0 46 44"
+            >
+              <g fill="none" stroke="#FFF" stroke-width="2">
+                <path
+                  d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+                />
+              </g>
+            </svg>
+          </button>
+        </div>
+        <section class="result-container">
+          <p class="result-txt">
+            <span class="result-num result-year">- -</span> years
+          </p>
+          <p class="result-txt">
+            <span class="result-num result-month">- -</span> months
+          </p>
+          <p class="result-txt">
+            <span class="result-num result-days">- -</span> days
+          </p>
+        </section>
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Maz</a>.
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+@media (max-width: 73em) {
+  /***************************
+  ******  1168 px  ******
+****************************/
+  .result-txt {
+    font-size: 8.6rem;
+  }
+}
+@media (max-width: 66em) {
+  /***************************
+  ******  1056 px  ******
+****************************/
+  .result-txt {
+    font-size: 7.4rem;
+  }
+  .submit {
+    width: 10.8rem;
+    height: 10.8rem;
+
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+  .hr-line {
+    margin: 8rem 0;
+  }
+}
+
+@media (max-width: 62em) {
+  /***************************
+  ******  992 px  ******
+****************************/
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56em) {
+  /***************************
+  ******  896 px  ******
+****************************/
+  input {
+    width: 12rem;
+  }
+  .result-txt {
+    font-size: 6.2rem;
+  }
+}
+@media (max-width: 46em) {
+  /***************************
+  ******  736 px  ******
+****************************/
+  input {
+    width: 10rem;
+    font-size: 2.4rem;
+  }
+  .result-txt {
+    font-size: 4.4rem;
+  }
+  .result-txt:not(:first-child) {
+    margin-top: -1.2rem;
+  }
+  .submit {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media (max-width: 40em) {
+  /***************************
+  ******  640 px  ******
+****************************/
+  .calculator {
+    width: 65%;
+  }
+}
+@media (max-width: 34em) {
+  /***************************
+  ******  544 px  ******
+****************************/
+  .calculator {
+    width: 75%;
+  }
+  input {
+    width: 8.5rem;
+    font-size: 2rem;
+  }
+  .result-txt {
+    font-size: 3.6rem;
+  }
+  .result-txt:not(:first-child) {
+    margin-top: -1.2rem;
+  }
+  .submit {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+@media (max-width: 27em) {
+  /***************************
+  ******  432 px  ******
+****************************/
+  .calculator {
+    width: 82%;
+  }
+}
+
+@media (max-width: 23.43em) {
+  /***************************
+  ******  375 px  ******
+****************************/
+  html {
+    font-size: 37.5%;
+  }
+  .container {
+    width: 62.5rem;
+  }
+
+  .calculator {
+    width: 90%;
+    padding: 6rem 6.4rem 6rem 6.4rem;
+  }
+  .form {
+    margin-bottom: 10.2rem;
+  }
+  input {
+    width: 14.3rem;
+    border-radius: 8px;
+    padding: 2.2rem 0;
+  }
+  label {
+    font-size: 2rem;
+    letter-spacing: 2.5px;
+  }
+
+  svg {
+    width: 28px;
+    height: 28px;
+  }
+  .hr-line {
+    margin-bottom: 10.8rem;
+  }
+  .result-txt {
+    font-size: 7.7rem;
+  }
+  .result-txt:not(:first-child) {
+    margin-top: -2.4rem;
+  }
+}
